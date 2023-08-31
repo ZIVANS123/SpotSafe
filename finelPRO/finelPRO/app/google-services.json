@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76942343416",
+    "project_id": "finalproject-400f5",
+    "storage_bucket": "finalproject-400f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76942343416:android:d96d90a710fae7050dcf0d",
+        "android_client_info": {
+          "package_name": "com.example.finelpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76942343416-cpg5giar8kimfj19crl9ssccmsthl5pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQxmWCJaAsj_sIcCnW_O9lql3Nxh2lJgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76942343416-cpg5giar8kimfj19crl9ssccmsthl5pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

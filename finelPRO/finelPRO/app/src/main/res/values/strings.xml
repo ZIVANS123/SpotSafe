@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">finelPro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="risk_levels">
+        <item>EASY</item>
+        <item>MEDIUM</item>
+        <item>HARD</item>
+    </string-array>
+
+    <string-array name="regions">
+        <item>NORTH DISTRICT</item>
+        <item>HAIFA DISTRICT</item>
+        <item>CENTRAL DISTRICT</item>
+        <item>TEL AVIV DISTRICT</item>
+        <item>DISTRICT JERUSALEM</item>
+        <item>SOUTH DISTRICT</item>
+    </string-array>
+
+    <string-array name="event_types">
+        <item>HEALTHY</item>
+        <item>ENVIRONMENTAL</item>
+    </string-array>
+
+    <string-array name="users">
+        <item>user1</item>
+        <item>user2</item>
+        <item>user3</item>
+    </string-array>
+
+    <string name="PASSWORD">1234</string>
+    <string name="CURRENTUSER">user</string>
+    <string name="DESCRIPTIONERROR">Description is required</string>
+    <string name="ADDRESSERROR">Address is required</string>
+    <string name="EVENTFAILEDSAVED">Failed to save event</string>
+    <string name="DEFULTDATE">01/01/2023 00:00</string>
+    <string name="UPDATEEVENTFAIL">Failed to update event</string>
+    <string name="CONFIRMATIONDIALOG">Confirmation</string>
+    <string name="ACCEPTREJECTQUESTION">Are you sure you want to accept/reject this event?</string>
+    <string name="ACCEPT">Accept</string>
+    <string name="EVENTACCEPT">Event accepted</string>
+    <string name="REJECTEVENTPAST">You have already postponed the event before.</string>
+    <string name="REJECT">Reject</string>
+    <string name="REJECTEVENTALERT">The event has been postponed</string>
+    <string name="EDITDELETDIALOG">Edit/Delete Event</string>
+    <string name="EDITDELETTITLE">What action do you want to take?</string>
+    <string name="EDIT">Edit</string>
+    <string name="EVENT">event</string>
+    <string name="DELETE">Delete</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="EVENTSAVED">Event saved successfully</string>
+    <string name="LOGINERROR">Invalid username or password</string>
+    <string name="SELECTEDEVENT">selectedEvent</string>
+    <string name="DESCRIPTION">Description</string>
+    <string name="RISKLEVEL">Risk Level</string>
+    <string name="TYPE">Type</string>
+    <string name="APPROVALCOUNT">Approval Count</string>
+    <string name="DBNAME">db1</string>
+    <string name="EVENTID">id</string>
+    <string name="TYPEDB">type</string>
+    <string name="IMG">img</string>
+    <string name="DESCRIPTIONDB">description</string>
+    <string name="ADRESS">adress</string>
+    <string name="AREA">area</string>
+    <string name="RISKLEVELDB">riskLevel</string>
+    <string name="USER">user</string>
+    <string name="DATE">date</string>
+    <string name="EVENTDB">events</string>
+    <string name="APPROVALTABLE">approvals</string>
+    <string name="APPROVALID">approvalId</string>
+    <string name="EVENTIDFK">eventId</string>
+    <string name="APPROVAL_ACTION">act</string>
+    <string name="LOCAL_UPDATE_EVENT">The local event table has been successfully updated</string>
+    <string name="LOCAL_UPDATE_EVENT_FAIL">Failed to update event table</string>
+    <string name="LOCAL_UPDATE_APPROVALS">The local approvals table has been successfully updated</string>
+    <string name="LOCAL_UPDATE_APPROVALS_FAIL">Failed to update approvals table</string>
+    <string name="LOCAL_UPDATE_COMMENTS">The local comments table has been successfully updated</string>
+    <string name="LOCAL_UPDATE_COMMENTS_FAIL">Failed to update comments table</string>
+    <string name="ADD_EVENT_SNACKBAR">The event was added to FB</string>
+    <string name="FAIL_ADD_EVENT_SNACKBAR">Failed to add to FB</string>
+    <string name="DELETE_COMMENT_DIALOG_TITLE">Delete a comment</string>
+    <string name="DELETE_COMMENT_DIALOG_MESAGGE">Are you sure you want to delete the comment?</string>
+    <string name="COMMENT_DELETE_SNACKBAR">The comment was deleted from FB!</string>
+    <string name="FAIL_COMMENT_DELETE_SNACKBAR">Failed to delete comment from FB!</string>
+
+    <string name="ADD_COMMENT_DIALOG_TITLE">Add Comment</string>
+    <string name="ADD_COMMENT_DIALOG_MESAGGE">Enter your comment here</string>
+    <string name="ADD_COMMENT_SNACKBAR">Comment added to FB</string>
+    <string name="FAIL_ADD_COMMENT_SNACKBAR">Error adding comment</string>
+    <string name="UPDATE_COMMENT_DIALOG_TITLE">Update Comment</string>
+    <string name="UPDATE_COMMENT_DIALOG_MESAGGE">Enter your updated response</string>
+    <string name="UPDATE_COMMENT_SNACKBAR">The comment has been updated on FB</string>
+    <string name="FAIL_UPDATE_COMMENT_SNACKBAR">Error updating comment: "</string>
+    <string name="DESCRIPTION_REQUIRED">Description is required "</string>
+    <string name="ADDRESS_REQUIRED">Address is required"</string>
+    <string name="UPDATE_EVENT_SNACKBAR">The event was updated on FB!</string>
+    <string name="FAIL_UPDATE_EVENT_SNACKBAR">"FB update failed!</string>
+    <string name="EVENT_TYPE_ADAPTER">Event Type: </string>
+    <string name="EVENT_DESC_ADAPTER">"Description:  </string>
+    <string name="EVENT_ADDRESS_ADAPTER">"Addres:  </string>
+    <string name="EVENT_AREA_ADAPTER">"Area: </string>
+    <string name="EVENT_RISK_LEVEL">"Risk Level:  </string>
+    <string name="EVENT_USER_NAME">"Added by:   </string>
+    <string name="EVENT_DATE">"Date:    </string>
+    <string name="UPDATE_REPORT_SNACKBAR">Your report has been updated on FB!!</string>
+    <string name="FAIL_UPDATE_REPORT_SNACKBAR">Failed to update your FB report!</string>
+    <string name="DELETE_DIALOG_TITLE">Confirmation</string>
+    <string name="DELETE_DIALOG_MESSAGE">Are you sure you want to delete this event?</string>
+    <string name="DELETE_EVENT_SNACKBAR">The event was deleted from FB!</string>
+    <string name="FAIL_DELETE_EVENT_SNACKBAR">Deleting the event from FB failed!</string>
+    <string name="WINNER_TITLE_DIALOG">Winner </string>
+    <string name="RISKLEVEL_TITLE_DIALOG">Prevalence of risk levels </string>
+
+
+</resources>

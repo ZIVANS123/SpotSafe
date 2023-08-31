@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/fragmentContainer"
+    android:layout_height="match_parent">
+
+    <!-- Your fragment's layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Horizontal LinearLayout for Username and Date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- TextView to display the username -->
+            <TextView
+                android:id="@+id/usernameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Username: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- TextView to display the login date -->
+            <TextView
+                android:id="@+id/lastLoginTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Login Date: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- List of events -->
+        <ListView
+            android:id="@+id/eventsListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Button to add an event -->
+        <Button
+            android:id="@+id/addEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Event"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/llayout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/eventTypeTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Type" />
+
+    <Spinner
+        android:id="@+id/eventTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/eventDescriptionTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/eventDescriptionAsterisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="18sp"
+            android:textColor="#FF0000" />
+
+        <EditText
+            android:id="@+id/eventDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eventAddressTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Address" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/eventAddressAsterisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="18sp"
+            android:textColor="#FF0000" />
+
+        <EditText
+            android:id="@+id/eventAddressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eventAreaTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Area" />
+
+    <Spinner
+        android:id="@+id/eventAreaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/eventRiskTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Risk Level" />
+
+    <Spinner
+        android:id="@+id/eventRiskLevelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/selectDateTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <TextView
+        android:id="@+id/selectTimeTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+    <Button
+        android:id="@+id/selectTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Picture"
+        android:drawableLeft="@android:drawable/ic_menu_camera"/>
+
+    <Button
+        android:id="@+id/saveEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Event"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="#5682db"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        />
+
+</LinearLayout>

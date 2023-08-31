@@ -1,0 +1,56 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuitem_house"
+        android:icon="@drawable/home"
+        android:title="house"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menuitem_myuploaded"
+        android:icon="@drawable/myuploaded"
+        android:title="My reports"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuitem_report"
+        android:icon="@drawable/report"
+        android:title="filter"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuitem_approvals"
+        android:icon="@drawable/approval"
+        android:title="Events I approved"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuitem_myComments"
+        android:icon="@drawable/approval"
+        android:title="My Comments"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuitem_General_Indices"
+        android:title="General indices"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuitem_sort"
+        android:icon="@drawable/sorttime"
+        android:title="filter"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuitem_filter"
+        android:icon="@drawable/filter"
+        android:title="Filter"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuitem_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+
+</menu>
